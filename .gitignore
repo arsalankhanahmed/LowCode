@@ -1,5 +1,40 @@
+```
+# Build artifacts
+*.dll
+*.exe
+*.pdb
+*.userprefs
+*.tmp
+*.log
+obj/
+bin/
+Debug/
+Release/
+
+# Dependencies
+packages/
 node_modules/
-.next/
+vendor/
+
+# IDE files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test coverage
+coverage/
+*.coverage
+```.next/
 dist/
 build/
-*.log
